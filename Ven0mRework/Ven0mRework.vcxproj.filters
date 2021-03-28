@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Memory">
+      <UniqueIdentifier>{c2870147-e6c5-4cc9-ace6-222fb16b0693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Offsets">
+      <UniqueIdentifier>{6f7c9239-45ad-4e61-89c2-4a4c9637b38b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Network">
+      <UniqueIdentifier>{34528ccf-b060-4011-949c-827434f01267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Features">
+      <UniqueIdentifier>{c7359879-091b-439f-8a81-05861bb132bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Features\ESP">
+      <UniqueIdentifier>{a76053ff-e28e-4540-be0e-25c64a422ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Misc">
+      <UniqueIdentifier>{2394be2c-66e1-46a8-a039-183404fb26ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Engine">
+      <UniqueIdentifier>{33154571-df70-4cbc-bf9e-ba2c141505aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Features\Aimbot">
+      <UniqueIdentifier>{ba2527cf-d252-4400-b11a-9eeed3245df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Misc\Math">
+      <UniqueIdentifier>{1587b3b3-4b30-4e9e-a132-8c08083b6d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Features\Skinchanger">
+      <UniqueIdentifier>{ce13f543-84ea-45ec-8d2c-f160e4dcbf51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Misc\Config">
+      <UniqueIdentifier>{9c643f08-04dd-4467-97c6-b16cd7db1bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Features\Misc">
+      <UniqueIdentifier>{d288b8b1-fb25-4b7a-92a8-426cf4d699a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Features\Bhop">
+      <UniqueIdentifier>{70ef664a-2c76-41fb-96ad-8d558a3c15e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ven0mRework.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>Headerdateien\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Headerdateien\Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Headerdateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp.cpp">
+      <Filter>Headerdateien\Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Headerdateien\Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Headerdateien\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Headerdateien\Misc\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Skinchanger.cpp">
+      <Filter>Headerdateien\Features\Skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Headerdateien\Misc\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Headerdateien\Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Bhop.cpp">
+      <Filter>Headerdateien\Features\Bhop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mem.h">
+      <Filter>Headerdateien\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Headerdateien\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.h">
+      <Filter>Headerdateien\Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Classid.h">
+      <Filter>Headerdateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Headerdateien\Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Headerdateien\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Headerdateien\Misc\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Skinchanger.h">
+      <Filter>Headerdateien\Features\Skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Headerdateien\Misc\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Headerdateien\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Bhop.h">
+      <Filter>Headerdateien\Features\Bhop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D:\C++ Libarys\curl\libcurl_a.lib">
+      <Filter>Ressourcendateien</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

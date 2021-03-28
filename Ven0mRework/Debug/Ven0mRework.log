@@ -1,0 +1,2 @@
+﻿  Ven0mRework.cpp
+c:\users\julian\source\repos\ven0mrework\ven0mrework\ven0mrework.cpp(7): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
